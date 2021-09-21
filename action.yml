@@ -1,0 +1,12 @@
+name : 'dict-api'
+desciption: 'download file'
+inputs:
+  GITHUB_TOKENS:
+    description: 'GitHub tokens'
+    required: true
+    TENOR_TOKEN:
+      description: 'Tenor API token'
+      required : true
+runs:
+  using: 'node12'
+  main: 'dist/index.'
